@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Nota</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <div>Detail Nota</div>
+        <hr><!-- comment -->
+        <tr>
+            <th>Nama Sayur  : </th><td th:text="${name}"></td></br>
+            <th>Harga Sayur : </th><td th:text="${price}"></td></br>
+            <th>Jumlah beli   : </th><td th:text="${quantity}"></td></br>
+            <th>Total sebelum diskon        : </th><td th:text="${pricetotal}"></td></br>
+            <th>Total         : </th><td th:text="${total}"></td></br>
+            <th>Diskon sebesar </th><td th:text="${diskon}"></td></br>
+            <th>Uang Kembali </th><td th:text="${kembali}"></td></br>
+        </tr>
+    </body>
+</html>
